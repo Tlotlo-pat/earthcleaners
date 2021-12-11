@@ -1,0 +1,55 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - ask_waste_water
+  - ask_how_waster_water_is_generated
+  - ask_why_treat_waste_water
+  - ask_climatechange_and_wastewater
+  - ask_how_climatechange_affect_wasterwatertreatment
+  - ask_how_waste_water_treated
+  - ask_reduce_waste_water
+  - ask_safety_of_treated_water
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_definition:
+  - text: "water that has been used in the home, in a business, or as part of an industrial process,this water recycling facility treats waste water so that it can be reused"
+  
+
+  utter_how_waste_water_generated:
+  - text: "Domestic wastewater results from water use in residences, businesses, and restaurants."
+  - text: "Industrial wastewater comes from discharges by manufacturing and chemical industries."
+  - text: "Rainwater in urban and agricultural areas picks up debris, grit, nutrients, and various chemicals, thus contaminating surface runoff water."
+
+
+  utter_why_treat:
+  - text: "The major aim of wastewater treatment is to remove as much of the suspended solids as possible before the remaining water, called effluent, is discharged back to the environment. As solid material decays, it uses up oxygen, which is needed by the plants and animals living in the water."
+ 
+  utter_reduce:
+  - text: "1 Take Shorter Showers. 2 Reduce your shower time and try to avoid baths when you can. 3 Stop Pre-Rinsing Dishes. 4 Check for Leaks in the Pipes. 5 Only Run Full Loads of Laundry or Dishes. 6 Check your Toilet for Leaks. 7 Stop Wasting Water in the Sink. 8 Watch How You Water. 9 Reuse Water"
+  
+  utter_treatment:
+  - text: "Headworks:  Raw sewage from domestic and commercial sources enters the treatment plant at the headworks.  At this point, large inorganic solids in the waste stream are removed.  Aeration Basins:  The wastewater undergoes biological treatment in the aeration basins.  Air is injected into the wastewater to promote the growth of microorganisms which feed on organic materials in the sewage.Secondary Clarifiers:  Wastewater undergoing biological treatment in the aeration basin is pumped to the clarifiers to separate the water and solids.  The suspended heavier materials settle to the bottom of the clarifiers as a thin mud - called sludge - and returned to the aeration basins.  Secondary treated wastewater flows over the weirs of the clarifier and is sent to the tertiary filters. Tertiary Treatment Filters:  The clear effluent – or treated wastewater - from the secondary clarifiers is filtered through an approved tertiary filter to produce recycled water.  This filtering process removes the remaining suspended solids in the effluent.  The solids which accumulate in the filters must be occasionally flushed out during a backwash cycle and returned to the aeration basins to prevent clogging.  Disinfection:  The clear effluent from the tertiary filters flows into the chlorine contact chamber, where bacteria are destroyed.  After disinfection, any remaining chlorine residual is neutralized with sulfur dioxide.  In the near future, a disinfection upgrade will replace the chlorine contact chamber with a UV system.  In a UV system, ultraviolet light is used to break the cell wall of bacteria organisms.  A UV system reduces chemical use and chemical byproducts that might form.Solids Handling:  The solids – or sludge - remaining in the wastewater system after the secondary treatment process are mixed with polymer and applied to a press for disposal to landfill sites.  The sludge is used as filler in landfills.  Storage Reservoirs:  Two reservoirs with a combined capacity of 4.5 million gallons are used to store recycled water from the tertiary filters.  Recycled water is transported directly from the 3.5 million gallon holding pond reservoir to the seasonal discharge locations, including nearby forests and the Northwood Golf Course.  Tertiary effluent that does not meet water quality standards is automatically diverted to the 1 million gallon emergency pond reservoir.  Effluent stored in the emergency pond is pumped back to the headworks or to an aeration basin for retreatment. Operations Building:  The operations building contains personnel offices, facilities to control plant functions, and a laboratory to evaluate plant performance."
+  
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_safety:
+  - text: "Secondary treatment removes about 85 to 90 percent of BOD and suspended solid, and about 90 to 99 percent of coliform bacteria. Some treatment plants follow this with a sand filter, to remove additional pollutants. The water is then disinfected with chlorine, ozone, or ultraviolet light, and then discharged."
+ 
+  utter_climatechange:
+  - text: "Climate change imposes problems on various aspects of wastewater treatment plants (WWTPs) like treatment, distribution, disposal as well as reuse by incurring high energy cost and by increasing the volume of wastewater by adding additional storm/floodwater"
+  
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

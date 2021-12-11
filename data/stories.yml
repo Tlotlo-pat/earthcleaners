@@ -1,0 +1,53 @@
+version: "2.0"
+
+stories:
+
+- story: wastewater path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_waste_water
+  - action: utter_definition
+ 
+- story: wastewatergeneration path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_how_waster_water_is_generated
+  - action: utter_how_waste_water_generated
+  
+
+- story: whytreatwastewater path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_why_treat_waste_water
+  - action: utter_why_treat
+ 
+- story: reducewastewater path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_reduce_waste_water
+  - action: utter_reduce
+
+- story: wastewatertreatment path 
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_safety_of_treated_water
+  - action: utter_treatment
+
+- story: wastewatersafety path 
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_how_waste_water_treated
+  - action: utter_safety
+ 
+- story: wastewaterclimatechange path 
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_how_climatechange_affect_wasterwatertreatment
+  - action: utter_climatechange

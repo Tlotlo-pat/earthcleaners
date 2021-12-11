@@ -1,0 +1,98 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: ask_waste_water
+  examples: |
+    - what is waste water
+    - waste water
+    - define waste water
+
+- intent: ask_how_waster_water_is_generated
+  examples: |
+    - what causes waste water
+    - how waste water is generated
+    
+- intent: ask_constituents_of_waste_water
+  examples: |
+
+- intent: ask_why_treat_waste_water
+  examples: |
+    - why treat waste water
+    - importance of treating waste water 
+    - advantages of treating waste water
+
+- intent: ask_reuse_treated_sewage
+  examples: |
+
+- intent: ask_safety_of_treated_water
+  examples: |
+    - is it safe to drink treated waste water
+    - is treated water safe
+    - safety of treated water
+    - how safe is treated water
+
+- intent: ask_how_waste_water_treated
+  examples: |
+    - how is waste water treated
+    - what treat waste water
+    - treatment of waste water
+    - steps in treating waste water
+
+- intent: ask_ methods_of_sewage_treatment
+  examples: |
+
+- intent: ask_reduce_waste_water
+  examples: |
+    - how can you reduce waste water
+    - reduce waste water
+    - prevent waste water
+
+- intent: ask_climatechange_and_wastewater
+  examples: |
+    - how climate change affect waste water treatment
+    - waste water and climate change
+    - climate change and waste water
+
+- intent: ask_how_climatechange_affect_wasterwatertreatment
+  examples: |
+    - effects of climate change on waste water
+    - how climate change affect waste water
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
