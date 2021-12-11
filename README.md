@@ -1,3 +1,5 @@
 # Earth Cleaners
 
-AN AI ASSISTANT THAT EDUCATES ABOUT WASTE WATER AND WASTE WATER MANAGEMENT .
+An AI assistant that will educate about waste water management.
+
+
